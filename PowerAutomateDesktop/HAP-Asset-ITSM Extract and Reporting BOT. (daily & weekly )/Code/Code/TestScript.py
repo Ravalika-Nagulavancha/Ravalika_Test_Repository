@@ -1,5 +1,5 @@
 import win32com.client
-
+url: =["https://github.com"]
 outlook = win32com.client.Dispatch("Outlook.Application")
 namespace = outlook.GetNamespace("MAPI")
 
