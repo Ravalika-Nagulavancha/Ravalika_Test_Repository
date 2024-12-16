@@ -1,7 +1,4 @@
 import win32com.client
-
-
-
 def Move():
     def move_emails(folder_name, target_folder_name, static_subject_part):
         try:
